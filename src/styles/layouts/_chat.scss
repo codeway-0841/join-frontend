@@ -1,0 +1,116 @@
+.chat {
+  display: flex;
+  height: 100%;
+  background-color: #fff;
+  width: 1140px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04204);
+
+  &__sidebar {
+    width: 320px;
+    border-right: 1px solid #f7f7f7;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 21px;
+      height: 58px;
+      border-bottom: 1px solid #f7f7f7;
+      margin-bottom: 20px;
+      align-items: center;
+      
+      .ant-btn-circle {
+        position: relative;
+        left: 5px;
+      }
+      .brand{
+        -webkit-text-fill-color: transparent;
+        background: linear-gradient(90deg, #ac2f91, #1c03eb);
+        -webkit-background-clip: text;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: uppercase;
+        font-size:40px;  
+        font-weight: 700;
+      }
+      & > div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        
+        span {
+          display: inline-block;
+          margin-right: 48px;
+        }
+      }
+    }
+   
+
+    &-dialogs {
+      height: calc(100% - 136px);
+      .dialogs {
+        height: 100%;
+        overflow: auto;
+        &__item {
+          padding: 10px 20px;
+          margin-bottom: 0;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__dialog {
+    flex: 1;
+    position: relative;
+
+    .ant-empty {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &-input{
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+    }
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      border-bottom: 1px solid #f7f7f7;
+
+      .ant-btn-circle {
+        span {
+          font-size: 18px;
+        }
+      }
+      
+      &-center {
+        text-align: center;
+        display: flex;
+        
+      }
+
+      &-action {
+        position: absolute;
+        right: 20px;
+        top: 12px;
+        transform: rotate(90deg);
+      }
+
+      &-username {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+    }
+    &-messages{
+      padding: 20px;
+      overflow: auto;
+      height: calc(100% - 58px);
+    }
+  }
+}

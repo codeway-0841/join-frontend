@@ -1,0 +1,54 @@
+.chat-input {
+  display: flex;
+  margin: 20px;
+  position: relative;
+
+  &__smile-btn {
+    margin-right: 15px;
+
+    i.anticon {
+      margin-top: 11px;
+    }
+  }
+
+  .ant-btn-circle {
+    i.anticon {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+
+  &__emoji-picker {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-between;
+    margin-left: 15px;
+
+    &-upload-btn {
+      cursor: pointer;
+      input {
+        cursor: pointer;
+      }
+      &:hover {
+        button {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  input {
+    padding: 6px 11px 8px;
+    font-size: 14px;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
