@@ -1,0 +1,20 @@
+{
+  "main.css": "/join-frontend/static/css/main.2a171d37.chunk.css",
+  "main.js": "/join-frontend/static/js/main.09d6a86e.chunk.js",
+  "main.js.map": "/join-frontend/static/js/main.09d6a86e.chunk.js.map",
+  "runtime~main.js": "/join-frontend/static/js/runtime~main.25721f33.js",
+  "runtime~main.js.map": "/join-frontend/static/js/runtime~main.25721f33.js.map",
+  "static/css/2.69633163.chunk.css": "/join-frontend/static/css/2.69633163.chunk.css",
+  "static/js/2.24214bdf.chunk.js": "/join-frontend/static/js/2.24214bdf.chunk.js",
+  "static/js/2.24214bdf.chunk.js.map": "/join-frontend/static/js/2.24214bdf.chunk.js.map",
+  "index.html": "/join-frontend/index.html",
+  "precache-manifest.d726008bfd7fcd885716fd9a532ee068.js": "/join-frontend/precache-manifest.d726008bfd7fcd885716fd9a532ee068.js",
+  "service-worker.js": "/join-frontend/service-worker.js",
+  "static/css/2.69633163.chunk.css.map": "/join-frontend/static/css/2.69633163.chunk.css.map",
+  "static/css/main.2a171d37.chunk.css.map": "/join-frontend/static/css/main.2a171d37.chunk.css.map",
+  "static/media/noreaded.svg": "/join-frontend/static/media/noreaded.3c841bf6.svg",
+  "static/media/pause.svg": "/join-frontend/static/media/pause.a61933e8.svg",
+  "static/media/play.svg": "/join-frontend/static/media/play.65f03140.svg",
+  "static/media/readed.svg": "/join-frontend/static/media/readed.c1f419d6.svg",
+  "static/media/wave.svg": "/join-frontend/static/media/wave.2b8196a5.svg"
+}
